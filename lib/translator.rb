@@ -32,5 +32,5 @@ def get_english_meaning(file_path, jap_emoticon)
       return emoticons[key][:english]
     end
   end
-    return "Sorry, that emoticon was not found"
+    return #"Sorry, that emoticon was not found"
 end
