@@ -21,7 +21,7 @@ def get_japanese_emoticon(file_path, eng_emoticon)
       return emoticons[key][:japanese]
     end
   end
-  
+    return "Sorry, that emoticon was not found"
     
 end
 
