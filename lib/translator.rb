@@ -20,6 +20,7 @@ def get_japanese_emoticon(file_path, eng_emoticon)
     if emoticons[key][:english] == eng_emoticon
       return emoticons[key][:japanese]
     end
+  end
   
     
 end
