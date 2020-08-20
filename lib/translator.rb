@@ -19,7 +19,7 @@ def get_japanese_emoticon(file_path, eng_emoticon)
   emoticons.each do |key, value|
     if emoticons[key][:english] == eng_emoticon
       return emoticons[key][:japanese]
-    
+    end
     
 end
 
